@@ -29,10 +29,10 @@
 @end
 
 @implementation Person
-//- (void)test
-//{
-//    NSLog(@"test");
-//}
+- (void)test
+{
+    NSLog(@"test");
+}
 
 + (void)demo
 {
