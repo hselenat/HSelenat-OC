@@ -7,10 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C00BC5AD214A0A6800548450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC5AC214A0A6800548450 /* main.m */; };
+		C00BC5B8214A315A00548450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC5B7214A315A00548450 /* main.m */; };
+		C00BC5C3214A435900548450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C00BC5C2214A435900548450 /* main.m */; };
 		C02D409B2149194B00AE1384 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C02D409A2149194B00AE1384 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		C00BC5A8214A0A6800548450 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C00BC5B3214A315A00548450 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		C00BC5BE214A435900548450 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		C02D40952149194B00AE1384 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -23,11 +53,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C00BC5AA214A0A6800548450 /* NSStringUse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NSStringUse; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00BC5AC214A0A6800548450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C00BC5B5214A315A00548450 /* Student */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Student; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00BC5B7214A315A00548450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C00BC5C0214A435900548450 /* Soldier */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Soldier; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00BC5C2214A435900548450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C02D40972149194B00AE1384 /* ocday2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ocday2; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02D409A2149194B00AE1384 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C00BC5A7214A0A6800548450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BC5B2214A315A00548450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BC5BD214A435900548450 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C02D40942149194B00AE1384 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -38,10 +95,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C00BC5AB214A0A6800548450 /* NSStringUse */ = {
+			isa = PBXGroup;
+			children = (
+				C00BC5AC214A0A6800548450 /* main.m */,
+			);
+			path = NSStringUse;
+			sourceTree = "<group>";
+		};
+		C00BC5B6214A315A00548450 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				C00BC5B7214A315A00548450 /* main.m */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		C00BC5C1214A435900548450 /* Soldier */ = {
+			isa = PBXGroup;
+			children = (
+				C00BC5C2214A435900548450 /* main.m */,
+			);
+			path = Soldier;
+			sourceTree = "<group>";
+		};
 		C02D408E2149194B00AE1384 = {
 			isa = PBXGroup;
 			children = (
 				C02D40992149194B00AE1384 /* ocday2 */,
+				C00BC5AB214A0A6800548450 /* NSStringUse */,
+				C00BC5B6214A315A00548450 /* Student */,
+				C00BC5C1214A435900548450 /* Soldier */,
 				C02D40982149194B00AE1384 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				C02D40972149194B00AE1384 /* ocday2 */,
+				C00BC5AA214A0A6800548450 /* NSStringUse */,
+				C00BC5B5214A315A00548450 /* Student */,
+				C00BC5C0214A435900548450 /* Soldier */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +152,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C00BC5A9214A0A6800548450 /* NSStringUse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00BC5B0214A0A6800548450 /* Build configuration list for PBXNativeTarget "NSStringUse" */;
+			buildPhases = (
+				C00BC5A6214A0A6800548450 /* Sources */,
+				C00BC5A7214A0A6800548450 /* Frameworks */,
+				C00BC5A8214A0A6800548450 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSStringUse;
+			productName = NSStringUse;
+			productReference = C00BC5AA214A0A6800548450 /* NSStringUse */;
+			productType = "com.apple.product-type.tool";
+		};
+		C00BC5B4214A315A00548450 /* Student */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00BC5B9214A315A00548450 /* Build configuration list for PBXNativeTarget "Student" */;
+			buildPhases = (
+				C00BC5B1214A315A00548450 /* Sources */,
+				C00BC5B2214A315A00548450 /* Frameworks */,
+				C00BC5B3214A315A00548450 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Student;
+			productName = Student;
+			productReference = C00BC5B5214A315A00548450 /* Student */;
+			productType = "com.apple.product-type.tool";
+		};
+		C00BC5BF214A435900548450 /* Soldier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00BC5C4214A435900548450 /* Build configuration list for PBXNativeTarget "Soldier" */;
+			buildPhases = (
+				C00BC5BC214A435900548450 /* Sources */,
+				C00BC5BD214A435900548450 /* Frameworks */,
+				C00BC5BE214A435900548450 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soldier;
+			productName = Soldier;
+			productReference = C00BC5C0214A435900548450 /* Soldier */;
+			productType = "com.apple.product-type.tool";
+		};
 		C02D40962149194B00AE1384 /* ocday2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C02D409E2149194B00AE1384 /* Build configuration list for PBXNativeTarget "ocday2" */;
@@ -91,6 +229,15 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = hselenat;
 				TargetAttributes = {
+					C00BC5A9214A0A6800548450 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C00BC5B4214A315A00548450 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C00BC5BF214A435900548450 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					C02D40962149194B00AE1384 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -109,11 +256,38 @@
 			projectRoot = "";
 			targets = (
 				C02D40962149194B00AE1384 /* ocday2 */,
+				C00BC5A9214A0A6800548450 /* NSStringUse */,
+				C00BC5B4214A315A00548450 /* Student */,
+				C00BC5BF214A435900548450 /* Soldier */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C00BC5A6214A0A6800548450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00BC5AD214A0A6800548450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BC5B1214A315A00548450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00BC5B8214A315A00548450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C00BC5BC214A435900548450 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00BC5C3214A435900548450 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C02D40932149194B00AE1384 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +299,54 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C00BC5AE214A0A6800548450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00BC5AF214A0A6800548450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C00BC5BA214A315A00548450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00BC5BB214A315A00548450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C00BC5C5214A435900548450 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00BC5C6214A435900548450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		C02D409C2149194B00AE1384 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -253,6 +475,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C00BC5B0214A0A6800548450 /* Build configuration list for PBXNativeTarget "NSStringUse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00BC5AE214A0A6800548450 /* Debug */,
+				C00BC5AF214A0A6800548450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00BC5B9214A315A00548450 /* Build configuration list for PBXNativeTarget "Student" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00BC5BA214A315A00548450 /* Debug */,
+				C00BC5BB214A315A00548450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00BC5C4214A435900548450 /* Build configuration list for PBXNativeTarget "Soldier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00BC5C5214A435900548450 /* Debug */,
+				C00BC5C6214A435900548450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C02D40922149194B00AE1384 /* Build configuration list for PBXProject "ocday2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
